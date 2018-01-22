@@ -29,7 +29,7 @@ type: 0没有hud,1有hud<br/>
 successBlock: 成功回调(回调参数o)<br/>
 errorBlock(可选): 失败回调(回调参数e)<br/>
 
-    ah.post(url, params, type, successBlock, errorBlock)
+    ah.post(url, params, type, successBlock(o), errorBlock(e))
 
 
 
@@ -106,7 +106,8 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
 
 #### 2.读取一个key对应的value:<br/>
 
-        arc.get(key)
+
+        arc.get(key)
 
 
 
