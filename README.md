@@ -18,6 +18,7 @@
 4.每个页面不再需要引入require.js了，只需要引入<br/>
     
     <script src="/AbcStar/FrameWorks/requirejs/require.min.js"></script>
+    <script src="/AbcStar/FrameWorks/requirejs/main.js"></script>
     <script src="/AbcStar/FrameWorks/CoreWeb/CoreWeb.js"></script>
 
 
@@ -112,8 +113,14 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
 
 
 
-六. CoreIV： CoreWeb底层架构,应该用不到,文档略
+六. CoreIV： iv （全屏加载视图）
 ===============================
+
+#### 1.隐藏
+
+
+    iv.dismiss()
+
 
 七. Nav： 混编底层框架,开发中....
 ===============================
