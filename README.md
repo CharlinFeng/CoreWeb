@@ -27,7 +27,7 @@ url: 地址,直接写相对地址,不需要host了,内部已经拼接了baseUrl<
 params: 参数<br/>
 type: 0没有hud,1有hud<br/>
 successBlock: 成功回调(回调参数o)<br/>
-errorBlock: 失败回调(回调参数e)<br/>
+errorBlock(可选): 失败回调(回调参数e)<br/>
 
     ah.post(url, params, type, successBlock, errorBlock)
 
