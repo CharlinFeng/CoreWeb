@@ -95,7 +95,7 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
         actionSheet.show(labels, resClosure(i))
 
 
-五. CoreArchive： Key:CoreArchiveKey, 全局变量:arc (缓存)
+六. CoreArchive： Key:CoreArchiveKey, 全局变量:arc (缓存)
 ===============================
 
 #### 1.设置一个key-value:<br/>
@@ -110,5 +110,13 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
 
 
 
+六. CoreIV： CoreWeb底层架构,应该用不到,文档略
+===============================
+
+七. Nav： 混编底层框架,开发中....
+===============================
+
+八. CorePicker： 高仿iOS各种3D选取控件(单行,多行,时间选取,省市级联),开发中
+===============================
 
 
