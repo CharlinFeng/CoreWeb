@@ -23,11 +23,12 @@ CoreWeb是整体项目的根基。
 二.AppHttp： ah
 ===============================
 
-    //url: 地址,直接写相对地址,不需要host了,内部已经拼接了baseUrl
-    //params: 参数
-    //type: 0没有hud,1有hud
-    //successBlock: 成功回调(回调参数o)
-    //errorBlock: 失败回调(回调参数e)
+url: 地址,直接写相对地址,不需要host了,内部已经拼接了baseUrl
+params: 参数
+type: 0没有hud,1有hud
+successBlock: 成功回调(回调参数o)
+errorBlock: 失败回调(回调参数e)
+
     ah.post(url, params, type, successBlock, errorBlock)
 
 
