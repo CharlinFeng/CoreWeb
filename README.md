@@ -82,6 +82,5 @@ content: 内容文字<br/>
 最下面两个按钮默认值:取消,确定(不可更改).<br/>
 resClosure(可选):用户点击了按钮后的回调,取消(i=0),确定(i=1)<br/>
 
-
-        showAlert2.showAlert1(title, content, resClosure(i))
+        showAlert2.showAlert1(title, content, resClosure(i))
 
