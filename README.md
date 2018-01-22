@@ -95,4 +95,20 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
         actionSheet.show(labels, resClosure(i))
 
 
+五. CoreArchive： Key:CoreArchiveKey, 全局变量:arc (缓存)
+===============================
+
+#### 1.设置一个key-value:<br/>
+
+        arc.set(key,value)
+
+
+
+#### 2.读取一个key对应的value:<br/>
+
+        arc.get(key)
+
+
+
+
 
