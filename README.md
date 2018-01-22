@@ -82,5 +82,17 @@ content: 内容文字<br/>
 最下面两个按钮默认值:取消,确定(不可更改).<br/>
 resClosure(可选):用户点击了按钮后的回调,取消(i=0),确定(i=1)<br/>
 
-        showAlert2.showAlert1(title, content, resClosure(i))
+        showAlert.showAlert2(title, content, resClosure(i))
+
+
+五. CoreActionSheet： actionSheet (窗口底部选项列表)
+===============================
+#### 展示可选列表:<br/>
+labels: 可选的内容(默认已经添加了取消,所以不要包含取消)<br/>
+
+resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击最后面的灰色半透明背景i=-1,其他i从1开始按labels顺序依次递增<br/>
+    
+        actionSheet.show(labels, resClosure(i))
+
+
 
