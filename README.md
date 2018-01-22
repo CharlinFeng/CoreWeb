@@ -16,7 +16,8 @@
     Vue, AppHttp,CoreSVP, CoreAlertView, CoreActionSheet
     
 4.每个页面不再需要引入require.js了，只需要引入<br/>
-
+    
+    <script src="/AbcStar/FrameWorks/requirejs/require.min.js"></script>
     <script src="/AbcStar/FrameWorks/CoreWeb/CoreWeb.js"></script>
 
 
