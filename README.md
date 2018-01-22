@@ -3,7 +3,7 @@
 
 一. 基本框架：
 ===============================
-CoreWeb是整体项目的根基。
+#### CoreWeb是整体项目的根基。
 
 1.请到CoreWeb复制Lib文件夹到每个页面<br/>
 
@@ -50,17 +50,19 @@ resClosure(可选): 提示结束后的回调   <br/> 
         svp.showError(str = "操作失败", resClosure)
 
 #### 3.加载中:<br/>
-str: 提示文字,默认文字是"加载中"<br/>
+str: 提示文字,默认文字是"加载中"
 
  
         svp.showLoading(str = "加载中")
-    
+  
+  
     
 #### 4.关闭加载中:(成功和失败是自动关闭,不需要主动关闭)<br/>
-resClosure(可选): 关闭结束后的回调  <br/>
+resClosure(可选): 关闭结束后的回调 
 
  
         svp.dismiss(resClosure)
+
 
 
 四. CoreSVP： svp (提示窗)
