@@ -52,15 +52,13 @@ resClosure(可选): 提示结束后的回调   <br/> 
 #### 3.加载中:<br/>
 str: 提示文字,默认文字是"加载中"
 
- 
-        svp.showLoading(str = "加载中")
+    svp.showLoading(str = "加载中")
   
   
     
 #### 4.关闭加载中:(成功和失败是自动关闭,不需要主动关闭)<br/>
 resClosure(可选): 关闭结束后的回调 
 
- 
         svp.dismiss(resClosure)
 
 
