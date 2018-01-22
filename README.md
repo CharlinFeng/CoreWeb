@@ -1,7 +1,7 @@
 # CoreWeb
 原生WebView与H5混编，高效，简单！
 
-一.基本框架：
+一. 基本框架：
 ===============================
 CoreWeb是整体项目的根基。
 
@@ -20,7 +20,7 @@ CoreWeb是整体项目的根基。
     <script src="/AbcStar/FrameWorks/CoreWeb/CoreWeb.js"></script>
 
 
-二.AppHttp： ah
+二. AppHttp： ah
 ===============================
 
 url: 地址,直接写相对地址,不需要host了,内部已经拼接了baseUrl<br/>
@@ -33,6 +33,31 @@ errorBlock(可选): 失败回调(回调参数e)<br/>
 
 
 
+
+三. CoreSVP： svp (提示窗)
+===============================
+
+1.提示成功(显示2s后自动关闭):<br/>
+str: 提示文字,默认文字是"操作成功"<br/>
+resClosure(可选): 提示结束后的回调  <br/>  
+
+    svp.showSuccess(str = "操作失败", resClosure)
+    
+2.提示失败(显示3s后自动关闭):<br/>
+str: 提示文字,默认文字是"操作成功"<br/>
+resClosure(可选): 提示结束后的回调   <br/> 
+
+    svp.showError(str = "操作失败", resClosure)
+
+3.加载中:<br/>
+str: 提示文字,默认文字是"加载中"<br/>
+ 
+    svp.showLoading(str = "加载中")
+    
+4.关闭加载中:(成功和失败是自动关闭,不需要主动关闭)<br/>
+resClosure(可选): 关闭结束后的回调  <br/>
+ 
+    svp.dismiss(resClosure)
 
 
 
