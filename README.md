@@ -134,9 +134,8 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
 1.配置导航条：并自定义导航条
 
 
-    //此方法是CoreWeb内部调用，请勿手动调用
+    //此方法是CoreWeb内部调用，请勿手动调用
     function navBarLoad(){
-
      showNavBar("英语星球",0)
     }
 
