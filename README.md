@@ -178,6 +178,15 @@ border：0 不要线，1要线(默认)
              console.log("登录")
      })
 
+#### 4.添加seg切换
+
+     showNavBar_seg(["英语星球","天天向上"],function(i){
+
+        console.log(i)     
+     })
+
+
+
 
 
 八. CorePicker： 高仿iOS各种3D选取控件(单行,多行,时间选取,省市级联),开发中
