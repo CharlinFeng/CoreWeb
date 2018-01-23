@@ -131,14 +131,16 @@ resClosure(可选):用户点击了各种选项后回调,点击取消i=0,点击�
 
 七. Nav： 混编底层框架,开发中....
 ===============================
-#### 1.配置导航条：并自定义导航条
-theme 0:白色背景，theme 1:颜渐变背景， theme 2:纯蓝色背景， theme 3:切换（开发中）
 
+#### 1.配置导航条：并自定义导航条
+title: 标题
+theme 0:白色背景(默认)，theme 1:颜渐变背景， theme 2:纯蓝色背景， theme 3:切换（开发中）
+border：0 不要线，1要线(默认)
 
  
     //此方法是CoreWeb内部调用，请勿手动调用
     function navBarLoad(){
-      showNavBar("英语星球",0)
+      showNavBar(title,theme=0,border=1)
     }
 
 2.页面跳转与原生混编相关api
