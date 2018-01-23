@@ -143,7 +143,7 @@ border：0 不要线，1要线(默认)
       showNavBar(title,theme=0,border=1)
     }
 
-2.页面跳转与原生混编相关api
+#### 2.页面跳转与原生混编相关api
 
     function pop(params){
 
@@ -170,6 +170,13 @@ border：0 不要线，1要线(默认)
     //刷新
     function reload(){
     }
+
+
+#### 3.右侧barItem添加
+
+    addRightItem("登录",function(){
+             console.log("登录")
+     })
 
 
 
