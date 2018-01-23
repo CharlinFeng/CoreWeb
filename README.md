@@ -17,7 +17,7 @@
 
 2.每个页面的基本模块:<br/>
 
-    index,vue,host,list,action,other
+    nav,index,vue,host,list,action,other
     
 3.index已经实现了viewDidLoad方法，且内部已经默认加载了以下基本框架：<br/>
 
