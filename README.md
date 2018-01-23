@@ -37,7 +37,8 @@ type: 0没有hud,1有hud<br/>
 successBlock: 成功回调(回调参数o)<br/>
 errorBlock(可选): 失败回调(回调参数e)<br/>
 
-    ah.post(url, params, type, successBlock(o), errorBlock(e))
+
+    ah.post(url, params, type, successBlock(o), errorBlock(e))
 
 
 
