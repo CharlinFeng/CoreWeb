@@ -215,7 +215,11 @@ border：0 不要线，1要线(默认)
 九. CoreCountBtn： 倒计时按钮 countbtn
 ===============================
 
-    countbtn.counting()
+    //安装 cls是按钮的类（需要.），btn父级div要和按钮一样大
+    countbtn.setup(cls)
+    
+    //点击按钮，成功请求服务器数据之后
+    countbtn.counting()
 
 
 
