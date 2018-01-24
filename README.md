@@ -205,10 +205,10 @@ border：0 不要线，1要线(默认)
 
      let Home = "/Home/home.html" //首页
 
-2. 到逻辑页面
+2.到逻辑页面
 
       
-       pl.preload(pages_arr)
+    pl.preload(pages_arr)
 
 
 
