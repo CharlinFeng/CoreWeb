@@ -198,7 +198,7 @@ border：0 不要线，1要线(默认)
 
 
 
-八. PreLoad： 页面预加载 PreLoadKey [pl]
+八. PreLoad： 页面预加载 PreLoadKey pl
 ===============================
 
 1.首先到PreLoad框架内部，预定义好所有的页面
@@ -206,8 +206,9 @@ border：0 不要线，1要线(默认)
      let Home = "/Home/home.html" //首页
 
 2. 到逻辑页面
-  
-      pl.preload( [pages] )
+
+      
+       pl.preload(pages_arr)
 
 
 
