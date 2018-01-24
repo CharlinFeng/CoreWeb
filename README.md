@@ -162,8 +162,8 @@ border：0 不要线，1要线(默认)
 
      //电池栏样式
      StatusBarType = {}; //电池栏样式　　　　　　　　　　　
-     StatusBarType.black = 0 //黑色(默认)　　　　　　　　　　
-     StatusBarType.white = 1　//白色　　　
+     StatusBarType.white = 0 //白色(默认)　　　　　　　　　　
+     StatusBarType.black = 1　//黑色　　　
     
      //侧滑返回
      BackType = {};　//是否可以侧滑返回　　　　　　　　　　　
