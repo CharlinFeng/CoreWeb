@@ -171,6 +171,9 @@ border：0 不要线，1要线(默认)
      BackType.forbid = 1　//不可以　　
 
 
+     //原生客户端：
+     charlin://push?json={"url":"a.html","bartype":0/1,"backtype":0/1}
+
     //刷新
     function reload(){
     }
