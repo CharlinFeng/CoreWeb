@@ -153,19 +153,23 @@ border：0 不要线，1要线(默认)
 
     //url:页面地址，相对地址
     //页面可滑动返回
-    function push(url,params){
-
-     //打开新页面
-     window.location.href = "charlin://push?url="+url
-    }
-
     //url:页面地址，相对地址
-    //页面不可滑动返回
-    function push2(url,params){
+    //页面可滑动返回
+    
+    function push(url, params, bartype = StatusBarType.white, backtype=BackType.allow){}
 
-     //打开新页面
-     window.location.href = "charlin://push2?url="+url
-    }
+ ##### 相关枚举定义：
+
+     //电池栏样式
+     StatusBarType = {}; //电池栏样式　　　　　　　　　　　
+     StatusBarType.black = 0 //黑色(默认)　　　　　　　　　　
+     StatusBarType.white = 1　//白色　　　
+    
+     //侧滑返回
+     BackType = {};　//是否可以侧滑返回　　　　　　　　　　　
+     BackType.allow = 0 //可以　　　　　　　　　　
+     BackType.forbid = 1　//不可以　　
+
 
     //刷新
     function reload(){
