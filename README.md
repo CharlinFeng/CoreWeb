@@ -37,28 +37,29 @@ Swiper：手动导入
     
     参考js代码
     
-    var swiper = new Swiper('.content', {
-     direction: "vertical",
-     speed: 300,
-     roundLengths: true,
-     loop: true,
-     effect: 'coverflow',
-     coverflowEffect: {
-      rotate: 60,
-      stretch: 20,
-      depth: 200,
-      modifier: 2,
-      slideShadows: true
-     },
-     on: {
-      slideChangeTransitionStart: function() {
 
-       weak_self.vue.activeIndex = this.activeIndex
-       weak_self.playCurrentVideo()
-      }
-     },
+	var swiper = new Swiper('.content', {
+	     direction: "vertical",
+	     speed: 300,
+	     roundLengths: true,
+	     loop: true,
+	     effect: 'coverflow',
+	     coverflowEffect: {
+	      rotate: 60,
+	      stretch: 20,
+	      depth: 200,
+	      modifier: 2,
+	      slideShadows: true
+	     },
+	     on: {
+	      slideChangeTransitionStart: function() {
 
-    })
+	       weak_self.vue.activeIndex = this.activeIndex
+	       weak_self.playCurrentVideo()
+	      }
+	     },
+
+   	 })
 
    
    
