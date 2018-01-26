@@ -40,7 +40,7 @@ Tool APP层工具类：手动导入
 	//此方法会做以下两件事情
 	//a.返回是否登录的状态
 	//b.如果用户没有登录,在不是登录页的情况下,页面push到登录页
-	Tool.prototype.checkUM=function(){}
+	Tool.prototype.checkUM=function()
  	
 	//读取用户模型
 	Tool.prototype.readUM = function(loginpage=false)
