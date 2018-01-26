@@ -29,14 +29,14 @@ object: corelist
 #### 3.自定义多列表：
 
 
-    //初始化一个corelist
-    let list1 = new CoreListClass()
-    
-    //指定cls，vue中的数组key
+    //初始化一个corelist
+    let list1 = new CoreListClass()
+
+    //指定cls，vue中的数组key
     list1.cls="cls1"
-    list1.dataListKey="listkey1" //同时请到vue中配置对应的key
+    list1.dataListKey="listkey1" //同时请到vue中配置对应的key
     //初始化并立即刷新：
-    list1.prepare(url,params,refreshNow = true)
+    list1.prepare(url,params,refreshNow = true)
 
 
 
