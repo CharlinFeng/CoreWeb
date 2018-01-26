@@ -139,6 +139,15 @@ CoreList：手动导入
 
 
 
+	<div class="minirefresh-wrap height_100 CoreList">
+		<div class="minirefresh-scroll">
+			<ul>
+			</ul>
+		</div>
+	</div>
+
+
+
 
 一. 基本框架：
 ===============================
