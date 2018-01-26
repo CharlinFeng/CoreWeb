@@ -15,7 +15,7 @@ Swiper：手动导入
     Class: SwiperClass
     object: 第三方框架，需手动实例化
 
-#### 2.实例化对象：
+#### 2.实例化对象：(js和css已自动引入)
 
 
     中文文档： http://www.swiper.com.cn/api/start/new.html
