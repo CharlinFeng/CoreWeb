@@ -18,11 +18,11 @@ object: corelist
 #### 2.基本使用：
 单列表快速使用：refreshNow（初始化后是否立即刷新，默认是true）
 
-    
-    //初始化并立即刷新：请配置vue中的key为dataList（默认值）
-    coreList.prepare(url,params,refreshNow = true)
-    
-    //后续再次刷新: params(null表示使用旧参数刷新页面，也可以传入新参数刷新)
+
+    //初始化并立即刷新：请配置vue中的key为dataList（默认值）
+    coreList.prepare(url,params,refreshNow = true)
+
+    //后续再次刷新: params(null表示使用旧参数刷新页面，也可以传入新参数刷新)
     coreList.refresh(params=null)
     
 
