@@ -22,7 +22,7 @@ Swiper：手动导入
      direction: "vertical",
      speed: 300,
      roundLengths: true,
-   //		loop: true,
+     loop: true,
      effect: 'coverflow',
      coverflowEffect: {
       rotate: 60,
