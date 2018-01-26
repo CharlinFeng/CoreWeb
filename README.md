@@ -24,19 +24,19 @@ Swiper：手动导入
     参考dom：
     
 	<div class="content width_100 height_100">
-	<div class="swiper-wrapper">
-	<div v-for="(v,i) in vs" class="swiper-slide">
-	<video class="shiyi_video width_100 height_100" v-bind:src="v" loop="loop"></video>
-	</div>
-	</div>
+		<div class="swiper-wrapper">
+			<div v-for="(v,i) in vs" class="swiper-slide">
+				<video class="width_100 height_100" v-bind:src="v" loop="loop"></video>
+			</div>
+		</div>
 	</div>
     
     
     
     
     
-    //js
-    
+    参考js代码
+    
     var swiper = new Swiper('.content', {
      direction: "vertical",
      speed: 300,
