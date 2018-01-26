@@ -6,6 +6,42 @@
 #### 1.层级关系：<br/>
  CoreIV: 100<br/>
  NavVC: 200<br/>
+ 
+ 
+ 
+ 
+Tool APP层工具类：手动导入
+===============================
+#### 1.基本使用：
+ 
+    Key: ToolKey
+    Class: 不需要再实例化
+    object: tool
+ 
+ #### 2.主要方法：
+ 
+ 	//登录
+	Tool.prototype.login = function(){}
+	
+	//登出
+	Tool.prototype.logout = function(){}
+	
+	//自动登录
+	Tool.prototype.autoLogin = function(){}
+	
+	//保存用户模型
+	Tool.prototype.saveUM = function(){}
+	
+	//删除用户模型
+	Tool.prototype.deleteUM = function(){}
+	
+	//此方法会做以下两件事情
+	//a.返回是否登录的状态
+	//b.如果用户没有登录,在不是登录页的情况下,页面push到登录页
+	Tool.prototype.checkLogin=function(){}
+ 
+ 
+ 
 
 Swiper：手动导入
 ===============================
