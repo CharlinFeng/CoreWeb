@@ -17,7 +17,24 @@ Swiper：手动导入
 
 #### 2.实例化对象：
 
-    var swiper = new Swiper('.content', {
+
+    中文文档： http://www.swiper.com.cn/api/start/new.html
+    
+    
+    参考dom：
+    
+    <div class="content width_100 height_100">
+				<div class="swiper-wrapper">
+					<div v-for="(v,i) in vs" class="swiper-slide">
+						<video class="shiyi_video width_100 height_100" v-bind:src="v" loop="loop"></video>
+					</div>
+				</div>
+			</div>
+    
+    
+    
+    //js
+    var swiper = new Swiper('.content', {
 
      direction: "vertical",
      speed: 300,
@@ -41,7 +58,8 @@ Swiper：手动导入
 
     })
 
-
+   
+   
 
 
 
