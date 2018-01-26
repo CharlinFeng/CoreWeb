@@ -8,12 +8,13 @@
  NavVC: 200<br/>
 
 
-CoreList：
+CoreList：手动导入
 ===============================
 #### 1.基本使用：
-Key: CoreListKey
-Class: CoreListClass
-object: corelist
+
+    Key: CoreListKey
+    Class: CoreListClass
+    object: corelist
 
 #### 2.基本使用：
 单列表快速使用：refreshNow（初始化后是否立即刷新，默认是true）
