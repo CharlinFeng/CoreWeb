@@ -7,6 +7,43 @@
  CoreIV: 100<br/>
  NavVC: 200<br/>
 
+Swiper：手动导入
+===============================
+#### 1.基本使用：
+
+    Key: SwiperKey
+    Class: SwiperClass
+    object: 第三方框架，需手动实例化
+
+#### 2.实例化对象：
+
+    var swiper = new Swiper('.content', {
+
+     direction: "vertical",
+     speed: 300,
+     roundLengths: true,
+   //		loop: true,
+     effect: 'coverflow',
+     coverflowEffect: {
+      rotate: 60,
+      stretch: 20,
+      depth: 200,
+      modifier: 2,
+      slideShadows: true
+     },
+     on: {
+      slideChangeTransitionStart: function() {
+
+       weak_self.vue.activeIndex = this.activeIndex
+       weak_self.playCurrentVideo()
+      }
+     },
+
+    })
+
+
+
+
 
 CoreList：手动导入
 ===============================
