@@ -13,10 +13,10 @@
 Tool APP层工具类：手动导入
 ===============================
 #### 1.基本使用：
- 
-    Key: ToolKey
-    Class: 不需要再实例化
-    object: tool
+
+ 	Key: ToolKey
+	Class: 不需要再实例化
+	object: tool
  
  #### 2.主要方法：
  
