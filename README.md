@@ -1,4 +1,4 @@
-# CoreWeb
+# CoreWeb 用全新概念架构级开发HybirdAPP，拥有原生一致的体验，甚至超越！
 原生WebView与H5高级混编，统一ios和安卓交互，超越一切纯原生开发！
 
 前言：
