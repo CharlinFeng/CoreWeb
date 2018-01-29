@@ -171,6 +171,7 @@ CoreList：手动导入
 二. AppHttp： ah
 ===============================
 
+#### 1.post
 url: 地址,直接写相对地址,不需要host了,内部已经拼接了baseUrl<br/>
 params: 参数<br/>
 type: 0没有hud,1有hud<br/>
@@ -179,6 +180,33 @@ errorBlock(可选): 失败回调(回调参数e)<br/>
 
 
     ah.post(url, params, type, successBlock(o), errorBlock(e))
+
+
+#### 2.upload
+
+1.客户端获取图片，并压缩，转为二进制。
+2. 调用ah的一个成员方法，将二进制转为files数据，为上传做准备
+3.将普通的params和刚刚转好的files数据上传。
+
+	let data1 = "YWFhYWFhYQ=="
+	
+	let files = ah.blobDatasToFiles([data1])
+
+	let url = "/test/index/save"
+	
+	let params = {"uid":"4","name":"charlin"}
+
+	ah.upload(url,params,files,1,function(o){
+	     
+	    console.log("上传成功") 
+	    console.log(o)   
+	        
+	},function(e){
+		
+	    console.log("上传失败") 
+	    console.log(e)       
+	})
+
 
 
 
