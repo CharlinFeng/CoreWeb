@@ -9,6 +9,32 @@
  
  
  
+AnimateCss 48000个star的动画库：手动导入
+===============================
+#### 1.基本使用：
+ 
+ 	Key: AnimateCssKey
+	Class: css库，没有js
+	object: css库，没有js
+ 
+  
+ #### 2.主要方法：
+ 
+ https://github.com/daneden/animate.css
+ https://daneden.github.io/animate.css/
+ 
+ Add the class animated to the element you want to animate. You may also want to include the class infinite for an infinite loop.
+ 	
+	
+		1.引入AnimateCssKey
+		2.直接在html中使用css （立即就有动画）
+		3. 或者使用dom动态添加删除
+
+		dom.classList.add()
+		dom.classList.remove()
+	
+ 
+ 
  
 Tool APP层工具类：手动导入
 ===============================
