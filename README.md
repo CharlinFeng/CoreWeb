@@ -8,6 +8,20 @@
  NavVC: 200<br/>
  
  
+  
+2018.02.03 Howler 音频播放 手动导入
+===============================
+#### 1.基本使用：
+ 
+ 	Key: HowlerKey
+	Class: Howl
+	object: 手动实例化
+ 
+ 官方demo： https://howlerjs.com/#player
+ 官方文档： https://github.com/goldfire/howler.js
+ 
+ 
+ 
  
 AnimateCss 48000个star的动画库：手动导入
 ===============================
@@ -145,10 +159,10 @@ CoreList：手动导入
 
 
     //初始化并立即刷新：请配置vue中的key为dataList（默认值）
-    coreList.prepare(url,params,refreshNow = true)
+    corelist.prepare(url,params,refreshNow = true)
 
     //后续再次刷新: params(null表示使用旧参数刷新页面，也可以传入新参数刷新)
-    coreList.refresh(params=null)
+    corelist.refresh(params=null)
     
 
 #### 3.自定义多列表：
