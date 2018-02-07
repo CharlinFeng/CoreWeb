@@ -6,10 +6,37 @@
 #### 1.层级关系：<br/>
  CoreIV: 100<br/>
  NavVC: 200<br/>
+ CoreModal: 1000 <br/>
  
  
-  
-2018.02.03 Howler 音频播放 手动导入
+   
+CoreModal 弹出子页面 手动导入
+===============================
+#### 1.基本使用：
+ 	Key: CoreModalKey
+	Class: CoreModalClass
+	object: cp
+	
+	
+#### 2.弹出页面： 
+	
+	//url： 支持http，本地相对路径
+	//width,height (支持px，%)
+	cp.show("http://www.feng.com/", "70%","70%")
+	
+	//点击遮罩不能关闭(默认开启)
+	cp.bg_dismiss = false
+	
+#### 3.关闭页面： 	
+	
+	cp.dismiss()
+	
+#### 4.数据传递：
+	
+	parent
+	
+ 
+Howler 音频播放 手动导入
 ===============================
 #### 1.基本使用：
  
