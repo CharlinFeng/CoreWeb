@@ -15,21 +15,21 @@ CoreModal 弹出子页面 手动导入
 #### 1.基本使用：
  	Key: CoreModalKey
 	Class: CoreModalClass
-	object: cp
+	object: cm
 	
 	
 #### 2.弹出页面： 
 	
 	//url： 支持http，本地相对路径
 	//width,height (支持px，%)
-	cp.show("http://www.feng.com/", "70%","70%")
+	cm.show("http://www.feng.com/", "70%","70%")
 	
 	//点击遮罩不能关闭(默认开启)
-	cp.bg_dismiss = false
+	cm.bg_dismiss = false
 	
 #### 3.关闭页面： 	
 	
-	cp.dismiss()
+	cm.dismiss()
 	
 #### 4.数据传递：
 	
