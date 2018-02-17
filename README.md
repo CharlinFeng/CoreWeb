@@ -411,6 +411,11 @@ border：0 不要线，1要线(默认)
 	//通知app页面以及所有框架已经全部加载
 	window.location.href = "charlin://pageLoad"
 	
+ 	app在这个协议知道了页面已经加载完了.至少做以下事情:使用webview进行eval以下js字符串来表明当前是app,而不是pc:
+	
+	nav.pc = false
+	
+	
 
  ##### 相关枚举定义：
 
