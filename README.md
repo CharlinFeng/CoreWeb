@@ -1,4 +1,5 @@
-# CoreWeb 用全新概念架构级开发HybirdAPP，拥有原生一致的体验，甚至超越！
+# CoreWeb 兼容ios，安卓，小程序，pc，H5，平台通吃！ 用全新概念架构级开发HybirdAPP，拥有原生一致的体验，甚至超越！
+
 原生WebView与H5高级混编，统一ios和安卓交互，超越一切纯原生开发！
 
 前言：
@@ -408,12 +409,14 @@ border：0 不要线，1要线(默认)
 
  ##### 相关枚举定义：
 
-	//通知app页面以及所有框架已经全部加载
+	//通知app页面以及所有框架已经全部加载:此方法已经废除，为了与小程序统一，已经修改为url参数统一添加
+	plat_from=pc //pc版,不写也默认是pc
+	plat_from=app //app版
+	plat_from=mp //小程序版
+	
+	//app跳转
 	window.location.href = "charlin://pageLoad"
-	
- 	app在这个协议知道了页面已经加载完了.至少做以下事情:使用webview进行eval以下js字符串来表明当前是app,而不是pc:
-	
-	nav.pc = false
+
 	
 	
 
