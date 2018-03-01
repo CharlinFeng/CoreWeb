@@ -12,10 +12,10 @@
 
 数据传递体系
 ==========================
-1.NavigationController嵌套真正的页面。<br/>
-2.所有页面的格式一律为：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/>
-3.real_page.html后面一律是&参数，不可能有?<br/>
-4.在app以及pc中，real_page在与NavigationController.html直接拼接；在小程序中real_page先与小程序page拼接，然后再与NavigationController.html拼接。<br/>
+1.NavigationController嵌套真正的页面。<br/><br/>
+2.所有页面的格式一律为：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/><br/>
+3.real_page.html后面一律是&参数，不可能有?<br/><br/>
+4.在app以及pc中，real_page在与NavigationController.html直接拼接；在小程序中real_page先与小程序page拼接，然后再与NavigationController.html拼接。<br/><br/>
 示例如下：<br/>
 app与pc：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/>
 小程序：<br/>
