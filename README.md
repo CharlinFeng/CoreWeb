@@ -12,15 +12,15 @@
 
 数据传递体系
 ==========================
-1.NavigationController嵌套真正的页面。
-2.所有页面的格式一律为：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...
-3.real_page.html后面一律是&参数，不可能有?
-4.在app以及pc中，real_page在与NavigationController.html直接拼接；在小程序中real_page先与小程序page拼接，然后再与NavigationController.html拼接。
-示例如下：
-app与pc：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...
-小程序：
-/pages/CoreWeb/CoreWeb?src=read_page.html&k1=v1&k2=v2&...
-然后再得到NavigationController.html?src=read_page.html&k1=v1&k2=v2&...
+1.NavigationController嵌套真正的页面。<br/>
+2.所有页面的格式一律为：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/>
+3.real_page.html后面一律是&参数，不可能有?<br/>
+4.在app以及pc中，real_page在与NavigationController.html直接拼接；在小程序中real_page先与小程序page拼接，然后再与NavigationController.html拼接。<br/>
+示例如下：<br/>
+app与pc：NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/>
+小程序：<br/>
+/pages/CoreWeb/CoreWeb?src=read_page.html&k1=v1&k2=v2&...<br/>
+然后再得到NavigationController.html?src=read_page.html&k1=v1&k2=v2&...<br/>
 
  
 Babel 一键编译 2018重磅级功能 兼容所有老式旧手机,安卓低端机,iOS 11,10,9,8,7,6,5,4...系统!兼容安卓超低端机4.4以下,3.0,2.0系统!
