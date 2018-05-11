@@ -39,9 +39,66 @@ CorePicker 仿iOS效果 各种选取
 #### 2.多列级联（两列或多列）： 
 
 
+		let models = [
+		{
+		    label: '飞机票',
+		    value: 0,
+		    children: [
+		        {
+		            label: '经济舱',
+		            value: 1
+		        },
+		        {
+		            label: '商务舱',
+		            value: 2
+		        }
+		    ]
+		},
+		{
+		    label: '火车票',
+		    value: 1,
+		    children: [
+		        {
+		            label: '卧铺',
+		            value: 1,
+		            disabled: true // 不可用
+		        },
+		        {
+		            label: '坐票',
+		            value: 2
+		        },
+		        {
+		            label: '站票',
+		            value: 3
+		        }
+		    ]
+		}
+	]
+
+	picker.show23(models,null,function(m0,m1,m2){
+	    console.log(m0,m1,m2)    
+	},function(){
+	    console.log("点击了取消")
+	})
 
 
+#### 3.日期选取： 
+	
+	//第一个参数是默认选中的时间的时间戳，如果传null则为今天
 
+	picker.datePicker(null,function(ts){
+	    console.log(ts)    
+	},function(){
+	    console.log("点击了取消")
+	})
+
+#### 3.时间选取： 
+	
+	picker.timePicker(null,function(h,min){
+	    console.log(h,min)    
+	},function(){
+	    console.log("点击了取消")
+	})
 
 
 数据传递体系
