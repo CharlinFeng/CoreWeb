@@ -21,7 +21,7 @@ CorePicker 仿iOS效果 各种选取
  	Key: CorePickerKey
 	Class: CorePicker
 	object: picker
-	
+        https://github.com/Tencent/weui.js/blob/master/docs/component/picker.md#picker
 	
 #### 1.单列选取： 
 
