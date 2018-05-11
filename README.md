@@ -10,6 +10,40 @@
  NavVC: 200<br/>
  CoreModal: 1000 <br/>
 
+
+
+
+
+   
+CorePicker 仿iOS效果 各种选取
+===============================
+#### 1.基本使用：
+ 	Key: CorePickerKey
+	Class: CorePicker
+	object: picker
+	
+	
+#### 1.单列选取： 
+
+	let models = [
+		{value:1, label: "男"},{value:2, label: "女"}
+	]
+
+	picker.show1(models,[2],function(m){
+		console.log(m)
+	},function(){
+	    console.log("点击了取消")
+	})
+
+
+#### 2.多列级联（两列或多列）： 
+
+
+
+
+
+
+
 数据传递体系
 ==========================
 1.NavigationController嵌套真正的页面。<br/><br/>
