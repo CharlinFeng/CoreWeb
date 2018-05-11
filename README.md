@@ -92,7 +92,7 @@ CorePicker 仿iOS效果 各种选取
 	    console.log("点击了取消")
 	})
 
-#### 3.时间选取： 
+#### 4.时间选取： 
 	
 	picker.timePicker(null,function(h,min){
 	    console.log(h,min)    
